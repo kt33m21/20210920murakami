@@ -22,15 +22,13 @@
 
 .contents-main-menu{
   font-size:20px;
-  margin:0 0 0 auto;
+  margin:0 0 0 50%;
 }
 
 .contents-main-menu-block{
   display: inline-block;
   height: 50%;
   font-weight: bold;
-  padding-top: 20px;
-  padding-left:25px;
   text-decoration: none;
   color:blue;
 }
@@ -41,12 +39,13 @@
 
 .contents-bottom{
   width:100%;
+  height: 100%;
   position: relative;
 }
 
 .contents-bottom-ttl{
   position: absolute;
-  top: 445px;
+  top: 53%;
   padding:auto;
   font-size: 60px;
   font-weight: lighter;
@@ -55,13 +54,13 @@
 .contents-bottom-ttl-img{
   width: 55vw;
   position: relative;
-  bottom:-60px;
+  bottom:-10%;
   left:50%;
 
 }
 
 .contents-bottom-ttl-img img{
-  width:100%;
+  width:80%;
 }
 
 .contents-bottom-ttl-box{
