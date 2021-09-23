@@ -1,81 +1,41 @@
 .contents-main{
-  width:100vw;
-  height:100vh;
-
-
+  width: 100%;
+  height:100%;
 }
 
 .contents-main-box{
-  display:flex;
-  padding-top:30px;
-  width:100%;
-  color:#0000CD;
-  position: relative;
-
-
-}
-
-.contents-main-ttl{
-  font-size: 30px;
-  padding:10px 10px 10px 50px;
-}
-
-.contents-main-menu{
-  display:flex;
-  justify-content: space-between;
-  width: 40vw;
-  font-size:20px;
-  position: absolute;
-  left:57%;
-  bottom:10%;
-  padding: 10px 20px 0 10px;
-}
-
-.contents-main-menu-block{
-  display: inline-block;
-  height: 50%;
-  font-weight: bold;
-  text-decoration: none;
-  color:blue;
-}
-
-.contents-main-menu-block:hover{
-  color:blue;
+  width: 100%;
+  height:30%;
+  background-color: red;
 }
 
 .contents-bottom{
-  margin-top: 5%;
-  width:100%;
-  height: 100%;
-  position: relative;
+  width: 100%;
+  height:70%;
+  background-color: chocolate;
 }
 
 .contents-bottom-ttl{
-  font-size: 60px;
-  font-weight: lighter;
-  position: absolute;
-  top: 52%;
+  display: inline-block;
+  background-color: pink;
 }
 
 .contents-bottom-ttl-img{
-  width: 60vw;
-  height:50vh;
-  position: absolute;
-  top:6%;
-  left:50%;
-  z-index: 10;
-
+  display: inline-block;
+  width: 100%;
+  height:80%;
+  background-color: purple;
 }
 
 .contents-bottom-ttl-img img{
-  width:80%;
+  width: 50%;
+  height:50%;
+  margin-left: 50%;
 }
 
 .contents-bottom-ttl-box{
-  width:70vw;
-  height:25vh;
+  display: inline-block;
+  width: 70%;
+  height:20%;
   background-color: blue;
-  position: absolute;
-  top: 60%;
-  z-index: 5;
 }
