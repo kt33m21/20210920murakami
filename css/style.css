@@ -1,9 +1,7 @@
 .contents-main{
-  display: inline-block;
   width:100vw;
   height:100vh;
-  position: center;
-  margin:auto;
+
 
 }
 
@@ -12,6 +10,8 @@
   padding-top:30px;
   width:100%;
   color:#0000CD;
+  position: relative;
+
 
 }
 
@@ -21,8 +21,14 @@
 }
 
 .contents-main-menu{
+  display:flex;
+  justify-content: space-between;
+  width: 40vw;
   font-size:20px;
-  margin:0 0 0 50%;
+  position: absolute;
+  left:57%;
+  bottom:10%;
+  padding: 10px 20px 0 10px;
 }
 
 .contents-main-menu-block{
@@ -38,24 +44,26 @@
 }
 
 .contents-bottom{
+  margin-top: 5%;
   width:100%;
   height: 100%;
   position: relative;
 }
 
 .contents-bottom-ttl{
-  position: absolute;
-  top: 53%;
-  padding:auto;
   font-size: 60px;
   font-weight: lighter;
+  position: absolute;
+  top: 52%;
 }
 
 .contents-bottom-ttl-img{
-  width: 55vw;
-  position: relative;
-  bottom:-10%;
+  width: 60vw;
+  height:50vh;
+  position: absolute;
+  bottom:50%;
   left:50%;
+  z-index: 10;
 
 }
 
@@ -65,6 +73,9 @@
 
 .contents-bottom-ttl-box{
   width:70vw;
-  height:20vh;
+  height:25vh;
   background-color: blue;
+  position: absolute;
+  top: 60%;
+  z-index: 5;
 }
