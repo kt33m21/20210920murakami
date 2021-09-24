@@ -5,6 +5,7 @@
 .contents-main-box{
   display:flex;
   position: relative;
+  margin-top:2%;
   margin-right: 5%;
   margin-left: 5%;
 }
@@ -36,10 +37,9 @@
 
 .contents-bottom-ttl{
   display: inline-block;
-  position: absolute;
   font-size: 3em;
   font-weight: lighter;
-  top:60%;
+  transform: translate(0,590%);
 }
 
 .contents-bottom-ttl-img{
@@ -54,10 +54,9 @@
 }
 
 .contents-bottom-ttl-box{
-  position: absolute;
   height:17vh;
   width:70%;
   background-color: blue;
-  top: 70%;
   z-index: -1;
+  margin-top:-5%;
 }
