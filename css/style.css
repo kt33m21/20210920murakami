@@ -28,7 +28,6 @@
 .contents-bottom{
   position: relative;
   margin-top: 10vh;
-  background-color: chocolate;
   width: 100vw;
   height: 80vh;
 }
@@ -38,25 +37,25 @@
   position: absolute;
   font-size: 3em;
   font-weight: lighter;
-  top:50%;
+  top:70%;
 }
 
 .contents-bottom-ttl-img{
-  display: inline-block;
-  margin:auto 0 0 0;
-  background-color: brown;
+  margin:0 0 0 auto;
+  width: 800px;
+  height:500px;
 
 }
 
 .contents-bottom-ttl-img img{
-  width: 70%;
-  height:70%;
+  width: 100%;
+  height:100%;
 }
 
 .contents-bottom-ttl-box{
   position: absolute;
-  height:120px;
+  height:140px;
   width:80%;
   background-color: blue;
-  top:60%;
+  top: 80%;
 }
