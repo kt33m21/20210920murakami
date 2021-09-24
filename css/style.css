@@ -5,6 +5,8 @@
 .contents-main-box{
   display:flex;
   position: relative;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 .contents-main-ttl{
@@ -27,6 +29,8 @@
 
 .contents-bottom{
   position: relative;
+  margin-right: 5%;
+  margin-left: 5%;
   margin-top: 10vh;
   width: 100vw;
   height: 80vh;
@@ -41,9 +45,9 @@
 }
 
 .contents-bottom-ttl-img{
-  margin:0 0 0 auto;
-  width: 60%;
-  height:70vh;
+  margin:0 5% 0 auto;
+  width: 50%;
+  height:65vh;
 
 }
 
@@ -54,7 +58,7 @@
 
 .contents-bottom-ttl-box{
   position: absolute;
-  height:170px;
+  height:17vh;
   width:70%;
   background-color: blue;
   top: 70%;
