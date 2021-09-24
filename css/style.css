@@ -36,16 +36,14 @@
 }
 
 .contents-bottom-ttl{
-  display: inline-block;
   font-size: 3em;
   font-weight: lighter;
-  transform: translate(0,590%);
+  margin-top: -6%;
 }
 
 .contents-bottom-ttl-img{
   margin:0 0 0 auto;
   width: 50%;
-
 }
 
 .contents-bottom-ttl-img img{
@@ -53,7 +51,8 @@
   height:100%;
 }
 
-.contents-bottom-ttl-box{
+.aaa{
+  position: absolute;
   height:17vh;
   width:70%;
   background-color: blue;
