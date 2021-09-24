@@ -37,7 +37,7 @@
   position: absolute;
   font-size: 3em;
   font-weight: lighter;
-  top:70%;
+  top:60%;
 }
 
 .contents-bottom-ttl-img{
@@ -54,8 +54,9 @@
 
 .contents-bottom-ttl-box{
   position: absolute;
-  height:140px;
-  width:80%;
+  height:170px;
+  width:70%;
   background-color: blue;
-  top: 80%;
+  top: 70%;
+  z-index: -1;
 }
